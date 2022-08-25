@@ -1,4 +1,4 @@
-﻿namespace CoreApp;
+﻿namespace TestNamespace;
 
 public class FileAddedViaReSharper
 {
