@@ -11,7 +11,12 @@ namespace Framework
 
         private MyInnerClass Test(/*caret*/)
         {
-            return a_renamed;
+            CopyPasteMe();
+            return null;
+        }
+
+        private static void CopyPasteMe()
+        {
         }
     }
 

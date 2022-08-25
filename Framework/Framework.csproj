@@ -21,6 +21,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -29,6 +30,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -41,8 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\CoreApp\PeekPanel.cs">
+      <Link>PeekPanel.cs</Link>
+    </Compile>
+    <Compile Include="FileAddedViaReSharper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QF.cs" />
+    <Compile Include="QF2 - Copy.cs" />
+    <Compile Include="QF2.cs" />
     <Compile Include="Refactorings.cs" />
+    <Compile Include="Refactorings2.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Move\" />
   </ItemGroup>
   <Import Project="..\Shared\Shared.projitems" Label="Shared" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

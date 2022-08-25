@@ -28,6 +28,7 @@ namespace Xaml
         private void CallThisMethodWhenButtonIsClicked(object sender, RoutedEventArgs e)
         {
             throw new NotImplementedException();
+            throw new NotImplementedException();
         }
     }
 }

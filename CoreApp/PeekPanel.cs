@@ -1,25 +1,25 @@
-﻿// Lilia.Shamsutdinova
+﻿//// Lilia.Shamsutdinova
 
-using Newtonsoft.Json;
+//using Newtonsoft.Json;
 
-namespace TestNamespace;
+//namespace TestNamespace;
 
-public class PeekPanel
-{
-    public class UseNuget:A
-    {
-        public void Test()
-        {
-            JsonReader jr = null;
-        }
+//public class PeekPanel
+//{
+//    public class UseNuget:A
+//    {
+//        public void Test()
+//        {
+//            JsonReader jr = null;
+//        }
 
-        public void UseTest()
-        {
-            Test();
-        }
-    }
+//        public void UseTest()
+//        {
+//            Test();
+//        }
+//    }
 
-    public class A
-    {
-    }
-}
+//    public class A
+//    {
+//    }
+//}
