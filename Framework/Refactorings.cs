@@ -9,9 +9,13 @@ namespace Framework
             Test();
         }
 
-        private MyInnerClass Test()
+        private MyInnerClass Test(/*caret*/)
         {
-            return a;
+            return a_renamed;
         }
+    }
+
+    internal class MyInnerClass
+    {
     }
 }
