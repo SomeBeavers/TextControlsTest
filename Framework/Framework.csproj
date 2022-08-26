@@ -47,6 +47,7 @@
       <Link>PeekPanel.cs</Link>
     </Compile>
     <Compile Include="FileAddedViaReSharper.cs" />
+    <Compile Include="Generated.generated.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QF.cs" />
     <Compile Include="QF2 - Copy.cs" />
