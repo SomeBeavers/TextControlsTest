@@ -30,5 +30,15 @@ namespace Xaml
             throw new NotImplementedException();
             throw new NotImplementedException();
         }
+
+        private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void RenamedMethod(object sender, RoutedEventArgs e)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

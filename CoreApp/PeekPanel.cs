@@ -6,7 +6,7 @@
 
 //public class PeekPanel
 //{
-//    public class UseNuget:A
+//    public class UseNuget : A
 //    {
 //        public void Test()
 //        {

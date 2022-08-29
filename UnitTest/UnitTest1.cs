@@ -10,7 +10,18 @@ namespace UnitTest
         [Test]
         public void Test1()
         {
-            Assert.Pass();
+            NameOfTest = "try catch test";
+            try
+            {
+                Assert.Pass();
+            }
+            catch (Exception myException)
+            {
+                Console.WriteLine(myException);
+                throw;
+            }
         }
+
+        public string NameOfTest { get; set; }
     }
 }
